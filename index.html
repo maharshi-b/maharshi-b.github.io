@@ -14,7 +14,6 @@
       function my(){
         $("#navbarsExample09").removeClass('show');
         $("#id2").addClass('collapsed');
-        console.log($("#navbarsExample09"))
         return true;
       }
     </script>
@@ -23,7 +22,7 @@
     
     <div class='fixed-top container'>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded my-nav">
-          <a class="navbar-brand" href="#home">
+          <a class="navbar-brand" onclick="return my()" href="#home">
             <img src="assets/img/logo.png" alt="maharshi" width='150px'>
           </a>
           
@@ -50,6 +49,7 @@
           </div>
       </nav>
     </div>
+
     <div class='home' id="home">
       <div>
           <center>
@@ -58,14 +58,12 @@
             <h1>I build <b>Web Applications</b>.</h1>
           </center>
       </div>
-      
     </div>
 
     <div class='about' id="about">
-
       <div class='container'>
         <center>
-          <h1 class='top-padding'>About Myself</h1>
+          <h2 class='top-padding'>About Myself</h2>
         </center>
         <hr>
         <p><center>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
@@ -80,7 +78,7 @@
 
       <div class="container">
           <center>
-            <h1 class='top-padding'>My Portfolio</h1>
+            <h2 class='top-padding'>My Portfolio</h2>
           </center>
           <hr>
           <p><center>Content here</center></p>
@@ -92,18 +90,40 @@
 
       <div class="container">
         <center>
-          <h1 class='top-padding'>Get in touch</h1>
+          <h2 class='top-padding'>Get in touch with me</h2>
         </center>
         <hr>
-        <p><center>Content here</center></p>
+            <div class="my-2">
+              <center><i class="fa fa-envelope pr-3" aria-hidden="true"></i><a href="mailto:maharshi3781@gmail.com">maharshi3781@gmail.com</a></center>
+            </div>
+            <div class="my-2">
+              <center><i class="fa fa-phone pr-3" aria-hidden="true"></i><a href="tel:+916302523720">6302523720</a></center>
+            </div>
+            
+            <div class="mt-2 mb-4">
+              <center><i class="fa fa-whatsapp pr-3" aria-hidden="true"></i><a href="whatsapp://send?phone=+916302523720">6302523720</a></center>
+            </div>
+            <div class="py-2">
+              <center>
+                <a class='mr-3' target="blank" href="https://github.com/maharshi-b"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                <a class='mr-3' target="blank" href="https://www.reddit.com/user/maharshimartian"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>
+                <a class="mr-3" target="blank" href="https://www.youtube.com/channel/UCa8E6cWhw8U-W1jlgmuy8Xw"><i class="fa fa-2x fa-youtube-play" aria-hidden="true"></i></a>
+              </center>
+            </div>
+
+             
+      </div>
     </div>
+    <footer class='footer py-3'><center>© 2020 <a href="https://maharshi.me/">Maharshi</a></center></footer>
+    
+    
 
 
-    </div>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&family=Sacramento&display=swap" rel="stylesheet">    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
