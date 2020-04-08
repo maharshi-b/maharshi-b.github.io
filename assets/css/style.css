@@ -1,0 +1,36 @@
+.my-nav{
+    color: #f0f5f9 !important;
+    margin-top: 5px;
+    background-color: #1e2022 !important;
+    box-shadow: 0px 15px 10px -15px #1e2022;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color:#f0f5f9;
+    margin: 6px 0;
+  }
+.hamburger{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    display: inline-block;
+}
+.home{
+    font-family: 'Sacramento', cursive;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #c9d6df;
+    background-color: #52616b;
+}
+.home div{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
