@@ -47,7 +47,7 @@ html {
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     color: #c9d6df;
     background-color: #1e2022;
     text-shadow: 0px 0px 16px #52616b;
@@ -65,7 +65,7 @@ html {
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     color: #52616b;
     background-color: #f0f5f9;
 }
@@ -82,7 +82,7 @@ html {
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     color: #1e2022;
     background-color: #c9d6df;
 }
@@ -112,4 +112,26 @@ html {
 .footer a{
     text-decoration: none;
     color:#f0f5f9;
+}
+.btn-one,
+.btn-one:hover{
+    color: #f0f5f9;
+    background-color: #52616b;
+    box-shadow: 2px 2px 2px 0px black;}
+.btn-two,
+.btn-two:hover
+{
+    background-color: #1e2022;
+    color: #c9d6df ;
+    box-shadow: 2px 2px 2px 0px black;}
+.card{
+    box-shadow: 5px 5px 5px 0px #52616b;
+    background-color: #f0f5f9;
+}
+.image-icon{
+    padding-top: 1.25rem;
+    padding-left: 1.25rem;
+}
+.text-3d{
+    text-shadow: 1px 1px 2px #52616b;
 }
