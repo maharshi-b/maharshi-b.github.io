@@ -59,16 +59,19 @@ html {
     transform: translate(-50%, -50%);
 }
 .about{
-    font-family: 'Roboto Mono', monospace;
     position: relative;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     color: #52616b;
     background-color: #f0f5f9;
 }
+.about p{
+    font-family: 'Baloo Paaji 2', cursive;
+}
 .about h2{
-    text-shadow: 0px 0px 16px #c9d6df;
+    text-shadow: 0px 0px 16px #52616b;
+    font-family: 'Roboto Mono', monospace;
+    color: #1e2022;
 }
 .top-padding{
     padding-top:75px;
@@ -76,7 +79,6 @@ html {
 
 
 .portfolio{
-    font-family: 'Roboto Mono', monospace;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -85,6 +87,7 @@ html {
     background-color: #c9d6df;
 }
 .portfolio h2{
+    font-family: 'Roboto Mono', monospace;
     text-shadow: 0px 0px 16px #52616b;
 }
 
@@ -132,4 +135,7 @@ html {
 }
 .text-3d{
     text-shadow: 1px 1px 2px #52616b;
+}
+.baloo-text{
+    font-family: 'Baloo Paaji 2', cursive; 
 }
